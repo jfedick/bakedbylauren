@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><settings
+	duration="12"	transition="push up" 	auto_slide="true"	banner_click_action="true"
+	mouse_move_time="1"
+	mouse_move_shape_color="0x000000"
+	mouse_move_shape_alpha=".35"
+	colorize_color="0xD3BBB0"
+	colorize_amount="1"
+	control_layout="abc"	control_position_x="center"	control_position_y="center"	control_position_padding="20"
+	control_color="0xffffff"
+	control_color_over="0x8AD6DA"
+	control_blendmode="layer"
+
+	close_btn_color="0xffffff"
+	close_btn_color_over="0x000000"
+	close_btn_blendmode="normal"
+
+		video_control_position_x="center"	video_control_position_y="bottom"	video_control_position_padding="75"
+	video_control_color="0x1a1a1a"
+	video_control_color_over="0xff0000"
+	video_control_progress_color="0x1a1a1a"
+	video_control_progress_alpha=".75"
+	video_control_clock_color1="0x000000"
+	video_control_clock_color2="0xffffff"	
+	video_control_blendmode="normal"
+	video_colorize_color="0xD3BBB0"
+	video_colorize_amount="1"
+	back_of_video_color="0xffffff"
+	video_buffer="3"
+	video_close_btn_color="0x1a1a1a"
+	video_close_btn_color_over="0xff0000"
+	video_close_btn_blendmode="normal"
+	video_action_after_played="close"
+
+	
+	control_h1_size="15"
+	control_p_size="10.5"	cog_color="0xcccccc"	corner_radius="8"		>
+	<banner>		<file>public/flash/banners/ho_chi_minh.jpg</file>		<action>link</action>		<url target="_blank">http://activeden.net/user/marcfolio/follow</url>
+		<text><![CDATA[<h1>Royale XML Banner Rotator</h1><p>Named after my all-time favorite fast food sandwich the “Royale” offers more than your typical banner rotator. With an easy to configure XML file you'll be able to class up your website in no time.</p>]]></text>
+	</banner>
+
+	<banner>		<file>public/flash/banners/fish.jpg</file>		<action>video</action>
+		<video w="916" h="429">public/flash/banners/fish.flv</video>
+		<text><![CDATA[<h1>FEATURE: Built in Video Player</h1><p>Sometimes you don't what to redirect people, and now you can showcase your latest motion graphics project right in your prime realestate.</p>]]></text>
+	</banner>
+	<banner>		<file>public/flash/banners/scale.jpg</file>		<action>enlarge</action>
+		<enlarge>public/flash/banners/scale_enlarge.jpg</enlarge>
+		<text><![CDATA[<h1>FEATURE: Photo Panning</h1><p>Got a great photo that requires more detail? No problem. Panning around to see those crucial details is no problem.</p>]]></text>
+	</banner>	
+	<banner>		<file>public/flash/banners/gridnik_ampersand.jpg</file>		<action>download</action>		<download>public/flash/banners/gridnik_ampersand.zip</download>
+		<text><![CDATA[<h1>FEATURE: Download</h1><p>Advertising a sweet new give away? Why yes. While you're here download my new dual screen desktop image.</p>]]></text>
+	</banner>
+
+	<banner>		<file>public/flash/banners/test.swf</file>		<action>link</action>		<url target="_blank">http://activeden.net/user/marcfolio/follow</url>
+		<text><![CDATA[<h1>FEATURE: Load Multiple Banner Types</h1><p>PNG. JPG. GIF. SWF. Yup. Just point to the file you want and “Royale” will sequentially load 'em up for the fast viewing experience possible.</p>]]></text>
+	</banner>
+	<banner>		<file>public/flash/banners/coming_soon.jpg</file>		<action>link</action>		<url target="_blank">http://activeden.net/item/coming-soon-under-construction-count-down-template/125824</url>
+		<text><![CDATA[<h1>Coming Soon Microsite</h1><p>This newly released temporary site will have you tempted to leave it up long after the count down clock has expired. Buy it today.</p>]]></text>
+	</banner>
+	<banner>		<file>public/flash/banners/gotham.jpg</file>		<action>link</action>		<url target="_blank">http://activeden.net/item/gotham-narrow-xml-banner-rotator-image-viewer/103094</url>
+		<text><![CDATA[<h1>Gotham Narrow Banner Rotator</h1><p>If you're looking for a different banner rotator than “Royale” check out its predecessor.</p>]]></text>
+		
+	</banner>
+	<banner>		<file>public/flash/banners/new_video.jpg</file>		<action>link</action>		<url target="_blank">http://activeden.net/item/new-video-player-dynamic-movie-player-flashvars/47981</url>
+		<text><![CDATA[<h1>New Video Player</h1><p>Each time I work with video and flash I think of ways to improve and ways to be better. This file is no exception.</p>]]></text>
+		
+	</banner>
+	<banner>		<file>public/flash/banners/sideways_banner_example.jpg</file>		<action>link</action>		<url target="_blank">http://activeden.net/item/sideways-scrollbar-image-video-website-gallery/88413</url>
+		<text><![CDATA[<h1>Sideways Scrolling Portfolio Site</h1><p>When it comes to browsing the internet scrolling is the most natural way view and present your content. It is inherently one of the best ways to view the web.</p>]]></text>
+		
+	</banner>
+	
+	
+</settings>
