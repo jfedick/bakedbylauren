@@ -1,2 +1,2 @@
-require 'devart.rb'
+require './devart.rb'
 run Sinatra::Application
