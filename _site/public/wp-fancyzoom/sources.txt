@@ -1,2 +1,0 @@
-FancyZoom: http://www.fancyzoom.com/
-addomloadevent: http://www.thefutureoftheweb.com/blog/adddomloadevent
