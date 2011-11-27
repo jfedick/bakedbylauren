@@ -1,27 +1,79 @@
 ---
 layout: default
-title: bakedbylauren.com
+title: BakedByLauren
 ---
-<div id= "flash_banner">
-  <img src="./public/images/kitten.jpeg" alt="kitten"/>
-</div>
 <div id="content">
-	<div id="left_third">
-    	<h3>Blah Blah Blah</h3>
-    	<p>Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
-    	<strong><a href="index.html">READ MORE</a></strong>
-    </div><!-- end of #left_third -->
-    
-    <div id="middle_third">
-    	<h3>Designing for the Rich</h3>
-    	<p>Our lovely daughter says some pretty clever things, and last night was no different. As we drove home from getting H1N1 shots.</p>
-    <strong><a href="index.html">READ MORE</a></strong>
-    </div><!-- end of #middle_third -->
-    
-    <div id="right_third">
-    	<h3>Snow day on the Train</h3>
-    	<p>We road the train in to work today. A rather relaxing way to travel the long coridor to Salt Lake City verses bumper to bumper 2 hours on the freeway in the snow.</p>
-    <strong><a href="index.html">READ MORE</a></strong>
-    </div><!-- end of #right_third -->
-    
+	<div id="left_column">
+    <div class="blog_entry">
+      	 <h1><a href="{{ site.posts.first.url}}">{{ site.posts.first.title }}</a></h1>
+           <div class="date">
+                    {{ site.posts.first.date | date: "%B %d, %Y" }} 
+		 </div>
+		 <img alt="" src="./public/images/cupcakes.jpg" width="532"/>
+                   
+          <p>{{ site.posts.first.content}}</p>
+     		 
+      </div><!-- end of #blog_entry -->
+                                
+</div><!-- end of #left_column -->
+                 
+      <div id="double_right_column">
+    		<div id="side_column_1">
+          	<h5>RECENT POSTS</h5>
+              <ul>
+                  <li><a href='single_post.html' title='Last Nights AIGA: Hatch Design'>Last Nights AIGA: Hatch Design</a></li>
+                  <li><a href='single_post.html' title='XML Banner Rotator Royale'>XML Banner Rotator Royale</a></li>
+                  <li><a href='single_post.html' title='Christmas Lights'>Christmas Lights</a></li>
+                  <li><a href='single_post.html' title='From an Upcoming Flash Site Template'>From an Upcoming Flash Site Template</a></li>
+                  <li><a href='single_post.html' title='O Tannenbaum 2010'>O Tannenbaum 2010</a></li>
+                  <li><a href='single_post.html' title='Susan&#8217;s Holiday Sale'>Susan&#8217;s Holiday Sale</a></li>
+                  <li><a href='single_post.html' title='Fall Family Vacation'>Fall Family Vacation</a></li>
+                  <li><a href='single_post.html' title='Our Scary Kiddos'>Our Scary Kiddos</a></li>
+                  <li><a href='single_post.html' title='Happy Birthday Willow'>Happy Birthday Willow</a></li>
+                  <li><a href='single_post.html' title='This is How Every Website Should Look. The Hartford.'>This is How Every Website Should Look. The Hartford.</a></li>
+                  <li><a href='single_post.html' title='New Bath (tub)'>New Bath (tub)</a></li>
+                  <li><a href='single_post.html' title="NINETEEN SEVENTY-NINE TO PRESENT. CHEERS. IT&#8217;S MY BIRTHDAY.">NINETEEN SEVENTY-NINE TO PRESENT. CHEERS. IT'S MY BIRTHDAY.</a></li>
+                  <li><a href='single_post.html' title='The Desk'>The Desk</a></li>
+                  <li><a href='single_post.html' title="IT&#8217;S LIVE. SKYLAR NIELSEN DOT COM">IT'S LIVE. SKYLAR NIELSEN DOT COM</a></li>
+                  <li><a href='single_post.html' title='Check it: My New Sequential Video Player on the Den.'>Check it: My New Sequential Video Player on the Den.</a></li>
+              </ul>
+              <h5>SOCIAL LINKS</h5>
+              	<div id="social">
+
+                      <a href="#" class="rss-icon"></a>			
+                      <a href="#" class="twitter-icon"></a>			
+                      <a href="#" class="facebook-icon"></a>			
+			
+                      <a href="#" class="flickr-icon"></a>		
+                      		
+                      <a href="#" class="youtube-icon"></a>
+                      		
+                  </div>
+            
+                      
+          </div> <!-- END OF # side_column_1 -->
+          
+          <div id="side_column_2">
+          	<h5>SEARCH</h5>
+          	<form method="get" id="searchform" action="http://marcgarner.com/" >
+                  <div>
+                    <label class="screen-reader-text" for="s">Search for:</label>
+                    <input type="text" value="" name="s" id="s" />
+                    <input type="submit" id="searchsubmit" value="Search" />
+                  </div>
+            	</form>
+            
+            <h5>ADS</h5>
+            <ul>
+            
+              <li><a href="http://activeden.net/item/new-video-player-dynamic-movie-player-flashvars/47981" ><img alt="" src="public/images/ad3.jpg"/></a>
+              </li>
+              <li><a href="http://activeden.net/item/the-replacement-youtube-player-with-video-playlist/159566" ><img alt="" src="public/images/ad2.jpg"/></a>
+              </li>
+            </ul>
+          </div>
+          
+      	
+      </div> <!-- end of right_column -->
+    		
 </div><!-- end of #content -->
