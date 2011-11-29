@@ -136,14 +136,14 @@ h4 {
 #header #logo {
 	padding-top:53px;
 	background-position:bottom;
-	height: 63px;
-	width: 319px;
+	height: 120px;
+	width: 550px;
 }
 #header #header_contact {
 	position:absolute;
 	right:0px; 
 	top:55px; 
-	width:225px; 
+	width:245px; 
 	height:60px; 
 	font-size:16px; 
 	color:#3079B6;  /*3079B6*/  
@@ -616,7 +616,7 @@ width: 10px;
 background: url(images/sprite-social.png) no-repeat -79px -19px;
 }
 .youtube-icon {
-background: url(images/sprite-social.png) no-repeat -108px 0;
+background: url(images/sprite-social.png) no-repeat left08px 0;
 width: 42px;
 }
 .youtube-icon:hover {
@@ -797,3 +797,12 @@ a.comment-reply-link {
   padding: 2px 6px;
 }
 .comment-reply-link:hover { background-color: #fff; color: #333; }
+
+h1.logo {
+  display:inline;
+  margin-top:15px;
+  color:#422E24;
+  font-size:55px;
+  padding-bottom:30px;
+  font-weight:bold;
+}
